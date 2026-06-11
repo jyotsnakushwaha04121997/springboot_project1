@@ -1,5 +1,5 @@
 package com.practise.learningRestApis.service;
 
-public class StudentService {
+interface StudentService {
 
 }
