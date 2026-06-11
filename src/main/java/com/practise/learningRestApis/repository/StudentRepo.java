@@ -1,5 +1,9 @@
 package com.practise.learningRestApis.repository;
 
-public class StudentRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.practise.learningRestApis.entity.StudentEntity;
+
+public interface StudentRepo extends JpaRepository<StudentEntity,Long> {
 
 }
